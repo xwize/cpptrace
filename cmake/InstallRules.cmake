@@ -35,6 +35,8 @@ install(
   COMPONENT ${package_name}_development
   INCLUDES #
   DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
+  ARCHIVE #
+  DESTINATION "${CMAKE_INSTALL_LIBDIR}"
   ${FILE_SET_ARGS}
 )
 

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15...4.0)
+cmake_minimum_required(VERSION 3.12...4.0)
 
 include(cmake/PreventInSourceBuilds.cmake)
 
@@ -9,7 +9,7 @@ set(package_name "cpptrace")
 
 project(
   cpptrace
-  VERSION 1.0.2
+  VERSION 1.0.3
   DESCRIPTION "Simple, portable, and self-contained stacktrace library for C++11 and newer "
   HOMEPAGE_URL "https://github.com/jeremy-rifkin/cpptrace"
   LANGUAGES C CXX
